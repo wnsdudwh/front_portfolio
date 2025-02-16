@@ -1,0 +1,8 @@
+#background div.bg
+{
+  background:url('../image/bg/frontend-developer.png') center center #000000;
+  background-size:cover;
+  background-attachment:fixed;
+  height: inherit;
+  filter: brightness(0.75);
+}

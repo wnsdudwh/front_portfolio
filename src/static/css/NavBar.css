@@ -1,0 +1,9 @@
+header>.container>div
+{
+    justify-content: space-between;
+    align-items: center;
+}
+
+html {
+    scroll-padding-top: 68px; 
+}
