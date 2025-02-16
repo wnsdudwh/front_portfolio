@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer class="border-slate-500 border-t-[1px] w-full bg-slate-50" id="footer">
-        <div class="max-w-8xl mx-auto h-[100px] md:h-[110px] flex flex-col justify-center items-start">
+        <div class="max-w-screen-lg mx-auto h-[100px] md:h-[110px] flex flex-col justify-center items-start">
           <div class="font-normal text-gray-700 text-base flex gap-0.5 flex-col">
             <div class="relative inline-block px-1"><a class="hover:underline" href="mailto:dhdhwnsdud1@naver.com" target="_blank" aria-label="이메일 주소 : dhdhwnsdud1@naver.com">dhdhwnsdud1@naver.com</a></div>
             <div class="relative inline-block px-1"><a class="hover:underline" href="https://github.com/wnsdudwh" target="_blank" aria-label="깃허브 주소 : https://github.com/wnsdudwh">https://github.com/wnsdudwh</a></div>
