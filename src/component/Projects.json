@@ -13,8 +13,10 @@
         "link": "https://ipsi.pohang.ac.kr",
         "stack": "HTML, CSS, Bootstrap, JavaScript",
         "readme": "리드미 주소",
-        "video": "영상 주소",
-        "image": "이미지 주소"
+        "video": "https://www.youtube.com/watch?v=0bxIR9KkHbM",
+        "image": ["https://images.pexels.com/photos/30146008/pexels-photo-30146008.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30318143/pexels-photo-30318143.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30415724/pexels-photo-30415724.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"]
     },
     {
         "index":2,
@@ -30,8 +32,10 @@
         "link": "https://ipsi.pohang.ac.kr",
         "stack": "HTML, CSS, Bootstrap, JavaScript",
         "readme": "리드미 주소",
-        "video": "영상 주소",
-        "image": "이미지 주소"
+        "video": "https://youtu.be/qTkl8tt8oPg",
+        "image": ["https://images.pexels.com/photos/30146008/pexels-photo-30146008.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30318143/pexels-photo-30318143.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30415724/pexels-photo-30415724.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"]
     },    {
         "index":3,
         "title": "포항대학교 입시 홈페이지",
@@ -46,8 +50,10 @@
         "link": "https://ipsi.pohang.ac.kr",
         "stack": "HTML, CSS, Bootstrap, JavaScript",
         "readme": "리드미 주소",
-        "video": "영상 주소",
-        "image": "이미지 주소"
+        "video": "https://www.youtube.com/watch?v=bsGQe7YIPLg",
+        "image": ["https://images.pexels.com/photos/30146008/pexels-photo-30146008.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30318143/pexels-photo-30318143.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30415724/pexels-photo-30415724.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"]
     },    {
         "index":4,
         "title": "포항대학교 입시 홈페이지",
@@ -62,8 +68,10 @@
         "link": "https://ipsi.pohang.ac.kr",
         "stack": "HTML, CSS, Bootstrap, JavaScript",
         "readme": "리드미 주소",
-        "video": "영상 주소",
-        "image": "이미지 주소"
+        "video": "https://www.youtube.com/watch?v=R40NvWbZoRc",
+        "image": ["https://images.pexels.com/photos/30146008/pexels-photo-30146008.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30318143/pexels-photo-30318143.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30415724/pexels-photo-30415724.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"]
     },    {
         "index":5,
         "title": "포항대학교 입시 홈페이지",
@@ -78,8 +86,10 @@
         "link": "https://ipsi.pohang.ac.kr",
         "stack": "HTML, CSS, Bootstrap, JavaScript",
         "readme": "리드미 주소",
-        "video": "영상 주소",
-        "image": "이미지 주소"
+        "video": "https://youtu.be/MW51rRVhtgc",
+        "image": ["https://images.pexels.com/photos/30146008/pexels-photo-30146008.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30318143/pexels-photo-30318143.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30415724/pexels-photo-30415724.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"]
     },    {
         "index":6,
         "title": "포항대학교 입시 홈페이지",
@@ -94,7 +104,9 @@
         "link": "https://ipsi.pohang.ac.kr",
         "stack": "HTML, CSS, Bootstrap, JavaScript",
         "readme": "리드미 주소",
-        "video": "영상 주소",
-        "image": "이미지 주소"
+        "video": "https://www.youtube.com/watch?v=zds7VguH5Wk",
+        "image": ["https://images.pexels.com/photos/30146008/pexels-photo-30146008.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30318143/pexels-photo-30318143.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/30415724/pexels-photo-30415724.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"]
     }
 ]
