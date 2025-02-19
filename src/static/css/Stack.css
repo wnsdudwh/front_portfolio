@@ -1,0 +1,41 @@
+/* - */
+#stack ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#stack ul li:after
+{
+    display: block;
+    content: "";
+    clear: both;
+}
+#stack div.stack_bg
+{
+    display: block;
+}
+#stack div.stack_bg::before
+{
+    background:url('../image/stack/texture_background.webp') center center;
+    background-size:cover;
+    background-attachment:fixed;
+    height: inherit;
+    position: relative;
+    isolation: isolate;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: .3;
+}
+
+/* #stack div.stack_bg::after {
+    content: '';
+    z-index: -1;
+    inset: 0;
+    position: absolute;
+    background: white;
+    opacity: 0.01;
+  } */
