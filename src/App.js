@@ -1,4 +1,3 @@
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NavBar from "./sections/NavBar";
 import React from 'react'
 import Main from "./sections/Main";
@@ -8,6 +7,7 @@ import Project from "./sections/Project";
 import Stack from "./sections/Stack";
 import Footer from "./sections/Footer";
 import Cover from "./component/Cover";
+import StackTest from "./sections/StackTest";
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
       <Main />
       <AboutMe />
       <BackGround/>
-      <Stack />
+      {/* <Stack /> */}
+      <StackTest />
       <Project />
       <Footer />
     </>

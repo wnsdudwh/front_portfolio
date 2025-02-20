@@ -1,24 +1,17 @@
 /* - */
-#stack ul
-{
+/* #stack ul {
     list-style: none;
     padding: 0;
     margin-top: auto;
 }
 
-#stack li.stack_li
-{
-    /* font-size: 20px; */
-}
-
-#stack ul li:after
-{
+#stack ul li:after {
     display: block;
     content: "";
     clear: both;
 }
-#stack div.stack_bg
-{
+
+#stack div.stack_bg {
     background: #fcfcfc;
     transition: all .85s;
     height: 100%;
@@ -26,33 +19,33 @@
     display: flex;
     flex-direction: column;
 }
-#stack div.stack_bg:hover
-{
+
+#stack div.stack_bg:hover {
     background: #63ffce;
-    transition: all .85s;
+    transition: all .25s;
 }
-#stack div.stack_bg ul>li
-{
+
+#stack div.stack_bg ul>li {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-#stack div.stack_bg ul>li:last-child
-{
+
+#stack div.stack_bg ul>li:last-child {
     border-bottom: none;
 }
-#stack div.stack_bg::before
-{
-    background:url('../image/stack/texture_background.webp') center center;
-    background-size:cover;
-    background-attachment:fixed;
+
+#stack div.stack_bg::before {
+    background: url('../image/stack/texture_background.webp') center center;
+    background-size: cover;
+    background-attachment: fixed;
     height: inherit;
     position: relative;
     isolation: isolate;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
     opacity: .3;
-}
+} */
 
 /* #stack div.stack_bg::after {
     content: '';

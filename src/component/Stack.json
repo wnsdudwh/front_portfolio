@@ -1,0 +1,40 @@
+[
+    {
+        "index": 1,
+        "title": "Language",
+        "content": [
+            "Java",
+            "JavaScript",
+            "PHP"
+        ]
+    },
+    {
+        "index": 2,
+        "title": "Front-end",
+        "content": [
+            "HTML5 / CSS",
+            "React",
+            "Tailwind CSS",
+            "Bootstrap",
+            "jQuery"
+        ]
+    },
+    {
+        "index": 3,
+        "title": "Back-end",
+        "content": [
+            "MySQL",
+            "SpringBoot",
+            "JSP"
+        ]
+    },
+    {
+        "index": 4,
+        "title": "DevOps",
+        "content": [
+            "AWS EC2",
+            "AWS S3",
+            "Git / Github"
+        ]
+    }
+]

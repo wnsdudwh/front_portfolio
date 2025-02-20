@@ -38,7 +38,7 @@ const ProjectComp = () => {
     // }
     return (
         <>
-            {data && data.sort((a, b) => b.index - a.index).map(item => (
+            {data && data.sort((a, b) => a.index - b.index).map(item => (
                 <div key={item.index}>
                     <div class="p-8 w-[500px] h-[320px] rounded-xl mb-2 shadow-lg bg-white">
                         {/* <div class={`w-fit mb-2 px-5 py-1 ${colorList[getRandom()]} rounded-lg font-normal text-base text-white tracking-wide`}> */}

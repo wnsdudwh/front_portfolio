@@ -9,12 +9,12 @@ const AboutMe = () => {
     return (
         <section class="w-full relative h-fit border-b-indigo-600" id="about">
             <div class="w-full max-w-8xl mx-auto h-full">
-                <div class="mx-auto px-12 py-20 flex-col justify-center items-center">
+                <div class="sm:px-12 py-20 flex-col justify-center items-center">
                     <div class="text-6xl text-gray-900 font-extrabold mb-24 text-center underline">
                         ABOUT ME
                     </div>
-                    <div class="flex flex-wrap w-5/6 mx-auto justify-around text-slate-800">
-                        <div class="w-full sm:w-1/2 lg:w-1/3 pl-12">
+                    <div class="flex flex-wrap w-3/4 mx-auto text-slate-800">
+                        <div class="w-full sm:w-1/2 lg:w-1/3">
                             <div class="w-full pb-6 flex justify-start items-center gap-6 lg:pb-9">
                                 <CiUser class="min-w-10 min-h-10" />
                                 <div>
@@ -24,7 +24,7 @@ const AboutMe = () => {
                             </div>
                         </div>
 
-                        <div class="w-full sm:w-1/2 lg:w-1/3 pl-12">
+                        <div class="w-full sm:w-1/2 lg:w-1/3">
                             <div class="w-full pb-6 flex justify-start items-center gap-6 lg:pb-9">
                                 <CiCalendarDate class="min-w-10 min-h-10" />
                                 <div>
@@ -34,7 +34,7 @@ const AboutMe = () => {
                             </div>
                         </div>
 
-                        <div class="w-full sm:w-1/2 lg:w-1/3 pl-12">
+                        <div class="w-full sm:w-1/2 lg:w-1/3">
                             <div class="w-full pb-6 flex justify-start items-center gap-6 lg:pb-9">
                                 <CiPhone class="min-w-10 min-h-10" />
                                 <div>
@@ -44,7 +44,7 @@ const AboutMe = () => {
                             </div>
                         </div>
 
-                        <div class="w-full sm:w-1/2 lg:w-1/3 pl-12">
+                        <div class="w-full sm:w-1/2 lg:w-1/3">
                             <div class="w-full pb-6 flex justify-start items-center gap-6 lg:pb-9">
                                 <CiMail class="min-w-10 min-h-10" />
                                 <div class="group">
@@ -54,17 +54,17 @@ const AboutMe = () => {
                             </div>
                         </div>
 
-                        <div class="w-full sm:w-1/2 lg:w-1/3 pl-12">
+                        <div class="w-full sm:w-1/2 lg:w-1/3">
                             <div class="w-full pb-6 flex justify-start items-center gap-6 lg:pb-9">
                                 <FaGithub class="min-w-10 min-h-10" />
                                 <div class="group">
                                     <div class="font-bold">Github</div>
-                                    <div><a href="https://github.com/sipeporez" class='group-hover:underline'>sipeporez</a></div>
+                                    <div><a href="https://github.com/sipeporez" class='group-hover:underline cursor-pointer'>sipeporez</a></div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="w-full sm:w-1/2 lg:w-1/3 pl-12">
+                        <div class="w-full sm:w-1/2 lg:w-1/3">
                             <div class="w-full pb-6 flex justify-start items-center gap-6 lg:pb-9">
                                 {/* <FaGithub class="min-w-10 min-h-10" /> */}
                                 <div>
