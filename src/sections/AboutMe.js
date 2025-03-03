@@ -1,16 +1,18 @@
-import React from 'react'
-import { CiUser } from "react-icons/ci";
-import { CiCalendarDate } from "react-icons/ci";
-import { CiMail } from "react-icons/ci";
-import { CiPhone } from "react-icons/ci";
+// 불필요한 React import를 제거하고 useEffect와 useRef만 import
+import { CiCalendarDate, CiMail, CiPhone, CiUser } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import GsapText from '../component/GsapText.js';
+import '../static/css/Gsap_text.css';
+
 
 const AboutMe = () => {
     return (
+        // text-gray-700 opacity-40
         <section class="w-full relative h-fit border-b-indigo-600" id="about">
+            <GsapText inputText={"ABOUT ME"} />
             <div class="w-full max-w-8xl mx-auto h-full">
                 <div class="sm:px-12 py-20 flex-col justify-center items-center">
-                    <div class="text-6xl text-gray-900 font-extrabold mb-24 text-center underline">
+                    <div class="w-3/4 mx-auto text-5xl text-[#212529] font-extrabold mb-24 text-left">
                         ABOUT ME
                     </div>
                     <div class="flex flex-wrap w-3/4 mx-auto text-slate-800">
@@ -59,7 +61,7 @@ const AboutMe = () => {
                                 <FaGithub class="min-w-10 min-h-10" />
                                 <div class="group">
                                     <div class="font-bold">Github</div>
-                                    <div><a href="https://github.com/sipeporez" class='group-hover:underline cursor-pointer'>sipeporez</a></div>
+                                    <div><a href="https://github.com/wnsdudwh" class='group-hover:underline cursor-pointer'>wnsdudwh</a></div>
                                 </div>
                             </div>
                         </div>

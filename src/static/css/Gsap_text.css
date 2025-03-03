@@ -1,0 +1,9 @@
+#gsap_text {
+    letter-spacing: -.01em;
+    color: transparent;  /* 텍스트 색상을 투명으로 설정하여 배경 색이 보이도록 */
+    background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
+    -webkit-background-clip: text; /* 텍스트에만 배경을 클리핑 */
+    background-clip: text;         /* 텍스트에만 배경을 클리핑 */
+    background-size: 0%;           /* 초기 배경 크기를 0%로 설정 */
+    transition: background-size cubic-bezier(.1,.5,.5,1) 0.5s;
+  }

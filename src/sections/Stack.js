@@ -1,6 +1,8 @@
 import React from 'react'
 import '../static/css/Stack.css';
 
+
+// 조준영 작성
 const Stack = () => {
     return (
         <section id="stack" class="bg-primary-200 w-full h-[70vh]">                       {/* stack 섹션의 전체 범위 */}
@@ -15,7 +17,7 @@ const Stack = () => {
                         <ul>
                             <li class="stack_li py-2 text-lg">Java</li>
                             <li class="stack_li py-2 text-lg">JavaScript</li>
-                            <li class="stack_li py-2 text-lg">PHP</li>
+                            <li class="stack_li py-2 text-lg">PHdddP</li>
                         </ul>
                     </div>
 

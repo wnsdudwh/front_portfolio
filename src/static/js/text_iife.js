@@ -6,6 +6,7 @@ window.onload = setTimeout(function () {
     // 화면에 표시할 문장 배열
     
     const txtArr = ['Web Publisher', 'Front-End Developer', 'Web UI Designer', 'UX Designer', ];
+
     // 배열의 인덱스 초깃값
     let index = 0;
     // 화면에 표시할 문장 배열에서 텍스트를 하나 가져온 뒤, 배열로 만들기
