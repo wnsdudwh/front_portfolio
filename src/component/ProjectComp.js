@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
-import { CiImageOn } from "react-icons/ci";
-import { CiVideoOn } from "react-icons/ci";
+import React, { useState } from 'react';
+import { CiImageOn, CiVideoOn } from "react-icons/ci";
 import { LiaReadme } from "react-icons/lia";
-import data from './Projects.json';
 import ModalComp from './ModalComp';
+import data from './Projects.json';
 import SliderComp from './SliderComp';
+import ProjectImageComp from './ProjectImageComp';
 
 const ProjectComp = () => {
     const [open, setOpen] = useState(false);
@@ -25,7 +25,8 @@ const ProjectComp = () => {
     }
     function handleImage(e) {
         setContent(
-            <SliderComp content={e} />
+            <ProjectImageComp />
+            // <SliderComp content={e} />
         )
         setOpen(true);
     }
@@ -39,8 +40,10 @@ const ProjectComp = () => {
     return (
         <>
             {data && data.sort((a, b) => a.index - b.index).map(item => (
-                <div key={item.index}>
-                    <div class="p-8 w-[500px] h-[320px] rounded-xl mb-2 shadow-lg bg-white">
+                <div key={item.index}
+                    data-aos={`${item.index % 2 == 0 ? "fade-left" : "fade-right"}`}
+                    className={`${item.index % 2 == 0 ? "lg:mt-[160px]" : "lg:mb-[160px]"}`}>
+                    <div class="p-8 w-[400px] lg:w-[500px] h-[320px] rounded-xl mb-2 shadow-lg bg-white">
                         {/* <div class={`w-fit mb-2 px-5 py-1 ${colorList[getRandom()]} rounded-lg font-normal text-base text-white tracking-wide`}> */}
                         <div class={`w-fit mb-2 px-5 py-1 ${item.people === 1 ? colorList[0] : colorList[1]} rounded-lg font-normal text-base text-white tracking-wide`}>
                             {item.title}
@@ -54,7 +57,7 @@ const ProjectComp = () => {
                         </div>
                         <ul class="information pl-5 list-disc text-gray-700 text-sm">
                             {item.details && item.details.map(detail => (
-                                <li key={detail}>{detail}</li>
+                                <li className='mb-[2.5px]' key={detail}>{detail}</li>
                             ))
                             }
                         </ul>

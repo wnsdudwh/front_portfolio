@@ -4,10 +4,9 @@ import Main from "./sections/Main";
 import AboutMe from "./sections/AboutMe";
 import BackGround from "./sections/BackGround";
 import Project from "./sections/Project";
-import Stack from "./sections/Stack";
 import Footer from "./sections/Footer";
 import Cover from "./component/Cover";
-import StackTest from "./sections/StackTest";
+import Skills from "./sections/Skills";
 
 function App() {
   return (
@@ -17,8 +16,7 @@ function App() {
       <Main />
       <AboutMe />
       <BackGround/>
-      {/* <Stack /> */}
-      <StackTest />
+      <Skills />
       <Project />
       <Footer />
     </>

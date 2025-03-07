@@ -1,9 +1,0 @@
-#project>div ul.information>li
-{
-  margin-bottom: 2.5px;
-}
-
-#project>div ul.information>li:last-child
-{
-  margin-bottom: unset;
-}

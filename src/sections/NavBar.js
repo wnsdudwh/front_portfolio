@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavBar = () => {
     return (
-        <header class="fixed w-full shadow-lg drop-shadow-lg z-10">
+        <header class="fixed z-[9999] w-full shadow-lg drop-shadow-lg">
         <nav class="py-3.5 bg-white border-gray-200 px-4 lg:px-6 dark:bg-gray-800">
           <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-lg">
             <a href="#" class="flex items-center">
@@ -10,7 +10,6 @@ const NavBar = () => {
               <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">J J Y</span>
             </a>
 
-            {/* 문제점 = 상단 바 눌러서 빠른이동시 저번처럼 상단 바 만큼 더 가게 해야함  */}
             <div class="hidden justify-between items-center w-full lg:flex lg:w-[500px] lg:order-1" id="mobile-menu-2">
               <ul class="flex flex-col mt-4 font-medium text-lg lg:flex-row lg:mt-0 md:text-center md:w-full">
                 <li class="md:flex-1">
@@ -19,8 +18,8 @@ const NavBar = () => {
                     Me</a>
                 </li>
                 <li class="md:flex-1">
-                  <a href="#stack"
-                    class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Stack</a>
+                  <a href="#skill"
+                    class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Skills</a>
                 </li>
                 <li class="md:flex-1">
                   <a href="#project"
