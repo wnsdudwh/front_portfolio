@@ -6,6 +6,17 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* 네비바 스크롤 패딩 */
+html {
+  scroll-padding-top: 68px;
+}
+
+@media (min-width: 768px) {
+  html {
+    scroll-padding-top: 64px;
+  }
+}
+
 body
 {
   margin: 0;

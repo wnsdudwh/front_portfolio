@@ -1,8 +1,7 @@
-#background div.bg
-{
-  background:url('../image/bg/frontend-developer.png') center center #000000;
-  background-size:cover;
-  background-attachment:fixed;
+#background div.bg {
+  background: url('../image/bg/emile-perron-xrVDYZRGdw4-unsplash.jpg') center center #000000;
+  background-size: cover;
+  background-attachment: fixed;
   height: inherit;
-  filter: brightness(0.75);
+  filter: brightness(0.825);
 }

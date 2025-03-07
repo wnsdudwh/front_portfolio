@@ -10,10 +10,8 @@ const ModalComp = ({ open, setOpen, content }) => {
                     <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white
                     w-4/5 h-3/4 max-w-[90vw] max-h-[90vh]
                     flex flex-col'>
-                        <div className='flex justify-end items-end pt-5 pr-5 '>
-                            <HiOutlineXMark onClick={handleClose} className='min-w-7 min-h-7 cursor-pointer' />
-                        </div>
-                        <div className='px-8 py-4 w-full h-full'>
+                        <HiOutlineXMark onClick={handleClose} className='min-w-7 min-h-7 cursor-pointer ml-auto m-4' />
+                        <div className='px-8 py-4 w-full h-full overflow-auto'>
                             {content}
                         </div>
                     </div>

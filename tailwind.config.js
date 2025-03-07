@@ -10,6 +10,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'cursor': 'cursor 1s step-end infinite'
+      },
+      keyframes: {
+        cursor: {
+          '50%': {
+            opacity: '0'
+          },
+          '100%': {
+            opacity: '1'
+          },
+        }
+      },
       colors: {
         primary: {
           "50": "#eff6ff",
