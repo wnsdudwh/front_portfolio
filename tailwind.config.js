@@ -59,6 +59,6 @@ module.exports = {
   },
   plugins: [
     flowbite.plugin(),  // flowbite 플러그인 추가
-    // 필요하면 다른 플러그인도 추가하세요
+    require('tailwind-scrollbar-hide')
   ],
 };

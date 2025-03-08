@@ -24,7 +24,7 @@ window.onload = setTimeout(function () {
             span.textContent = currentTxt.shift();
             if (currentTxt.length !== 0) {
                 // 모든 단어가 다 빠질때까지 재귀호출
-                setTimeout(writeTxt, Math.floor(Math.random() * 250));
+                setTimeout(writeTxt, Math.floor(Math.random() * 200));
             } else {
                 // 다 빠진 경우 현재 출력된 단어를 한글자씩 배열로 분리 후 삭제함수 호출
                 currentTxt = span.textContent.split("");
@@ -42,7 +42,7 @@ window.onload = setTimeout(function () {
         span.textContent = currentTxt.join("");
         // 글자 길이가 0이 될때까지 재귀호출
         if (currentTxt.length !== 0) {
-            setTimeout(deleteTxt, Math.floor(Math.random() * 400))
+            setTimeout(deleteTxt, Math.floor(Math.random() * 350))
         } else {
             // 다 지워지면 다음 배열로 넘어간 뒤 출력 함수 호출
             index = (index + 1) % txtArr.length;

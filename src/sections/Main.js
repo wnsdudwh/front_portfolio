@@ -17,8 +17,8 @@ const Main = () => {
 
     return (
         <main className='w-full h-screen bg-cover relative overflow-hidden'>
-            <div class="w-3/4 mx-auto h-full">
-                <div class="relative md:top-[64px] top-[68px]">
+            <div className="w-3/4 mx-auto h-full">
+                <div className="relative md:top-[64px] top-[68px]">
                     <div className={`main_bg hover:scale-125 z-30 transition-all absolute duration-500 translate-y-1/2 rounded-3xl ${randomColor()} opacity-60`}
                         style={{ height: `${randomSize(10, 50)}vh`, width: `${randomSize(15, 25)}vw` }} />
                     <div className={`main_bg hover:scale-110 z-20 transition-all absolute duration-500 translate-x-1/4 translate-y-1/4 rounded-full ${randomColor()} opacity-70`}
@@ -27,8 +27,8 @@ const Main = () => {
                         style={{ height: `${randomSize(40, 45)}vh`, width: `${randomSize(50, 60)}vw` }} />
                 </div>
 
-                <div class="container text-left relative top-[44vh]">
-                    <h2 class="active w-full text-4xl font-bold leading-10 relative z-50 tracking-wider
+                <div className="container text-left relative top-[44vh] z-40">
+                    <h2 className="w-full text-4xl font-bold text-slate-800 leading-10 relative z-50 tracking-wider
                     md:text-5xl md:font-extrabold md:leading-[74px]
                     lg:text-6xl lg:font-extrabold lg:leading-[92px]
                     transition-all duration-200">안녕하세요!<br />
@@ -39,7 +39,7 @@ const Main = () => {
                             lg:h-16 w-1 bg-black opacity-70 animate-cursor' />
                         <br />
                         김성우 입니다.</h2>
-                    <p class="w-full text-lg leading-7 relative z-50 mt-8
+                    <p className="w-full text-lg leading-7 relative z-50 mt-8
                     md:text-xl md:leading-9
                     lg:text-2xl lg:leading-10">
                         확장성과 유지보수성을 갖춘 웹 애플리케이션을 개발하기 위해 노력하고 있습니다.</p>

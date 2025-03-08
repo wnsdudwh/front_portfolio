@@ -17,6 +17,22 @@ html {
   }
 }
 
+/* 리드미 Markdown용 css */
+.markdown-body ol {
+  list-style-type: decimal; 
+}
+
+
+/* 스크롤바 숨기기 */
+html::-webkit-scrollbar {
+  display: none;
+}
+html {
+  -ms-overflow-style: none;  /* IE and 엣지 */
+  scrollbar-width: none;  /* 파이어폭스 */
+}
+
+
 body
 {
   margin: 0;
@@ -25,6 +41,7 @@ body
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code

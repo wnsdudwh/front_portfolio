@@ -1,14 +1,8 @@
 import React, { useEffect } from 'react';
-import data from '../component/Skills.json';
-import 'aos/dist/aos.css';
-import Aos from 'aos';
+import data from '../static/data/Skills.json';
 
 const StackTest = () => {
-
-    useEffect(()=> {
-        Aos.init({});
-    },[])
-
+    
     const duration = ["1200", "1800", "700", "1500"];
     return (
         <section id="skill" className="bg-gradient-to-br from-gray-300 to-slate-600 relative">                       {/* stack 섹션의 전체 범위 */}
@@ -39,7 +33,7 @@ const StackTest = () => {
                                 <h3 className="text-3xl font-bold">{item.title}</h3>
                                 <ul className='divide-y-[2px] divide-gray-600 divide-opacity-30 mt-auto'>
                                     {item.content && item.content.map((i) => (
-                                        <li key={i} class="py-2 text-lg">{i}</li>
+                                        <li key={i} className="py-2 text-lg">{i}</li>
                                     ))}
                                 </ul>
                             </div>
