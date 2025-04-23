@@ -38,7 +38,7 @@ const Main = () => {
                             md:h-14
                             lg:h-16 w-1 bg-black opacity-70 animate-cursor' />
                         <br />
-                        김성우 입니다.</h2>
+                    조준영 입니다.</h2>
                     <p className="w-full text-lg leading-7 relative z-50 mt-8
                     md:text-xl md:leading-9
                     lg:text-2xl lg:leading-10">
