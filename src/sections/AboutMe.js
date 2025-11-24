@@ -41,7 +41,7 @@ const AboutMe = () => {
                                 <CiPhone className="min-w-10 min-h-10" />
                                 <div>
                                     <div className="font-bold">연락처</div>
-                                    <div>010-9876-5432</div>
+                                    <div>010-9472-3822</div>
                                 </div>
                             </div>
                         </div>

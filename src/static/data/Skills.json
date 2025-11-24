@@ -4,28 +4,29 @@
         "title": "Language",
         "content": [
             "Java",
-            "JavaScript",
-            "PHP"
+            "JavaScript"
         ]
     },
     {
         "index": 2,
         "title": "Front-end",
         "content": [
-            "HTML5 / CSS",
             "React",
             "Tailwind CSS",
-            "Bootstrap",
-            "jQuery"
+            "Axios / REST API",
+            "jQuery",
+            "GSAP"
         ]
     },
     {
         "index": 3,
         "title": "Back-end",
         "content": [
-            "MySQL",
             "SpringBoot",
-            "JSP"
+            "SpringSecurity",
+            "MySQL",
+            "JPA",
+            "JWT"
         ]
     },
     {
@@ -34,7 +35,8 @@
         "content": [
             "AWS EC2",
             "AWS S3",
-            "Git / Github"
+            "Git / Github",
+            "Docker"
         ]
     }
 ]

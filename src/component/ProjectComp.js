@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { CiImageOn, CiVideoOn } from "react-icons/ci";
 import { LiaReadme } from "react-icons/lia";
 import ModalComp from './ModalComp';
@@ -9,36 +9,46 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm';
 import 'github-markdown-css';
 
-const ProjectComp = () => {
+const ProjectComp = () => 
+{
     const [open, setOpen] = useState(false);
     const [content, setContent] = useState('');
 
     // 리드미 모달
-    function handleReadme(e) {
-        fetch(e)
-            .then((resp) => resp.text())
-            .then((text) => setContent(<div className='markdown-body'>
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>{text}</ReactMarkdown>
-            </div>))
-        setOpen(true);
+    function handleReadme(e) 
+    {
+        alert("현재 준비 중인 기능입니다.");
+        return;
+        // fetch(e)
+        //     .then((resp) => resp.text())
+        //     .then((text) => setContent(<div className='markdown-body'>
+        //         <ReactMarkdown remarkPlugins={[remarkGfm]}>{text}</ReactMarkdown>
+        //     </div>))
+        // setOpen(true);
     }
 
     // 비디오 모달
-    function handleVideo(e) {
-        const reg = /(.*?)(^|\/|v=)([a-z0-9_-]{11})(.*)?/i
-        const vid = reg.exec(e)[3];
-        setContent(
-            <iframe width="100%" height="100%" src={`//www.youtube-nocookie.com/embed/${vid}?rel=0`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
-        );
-        setOpen(true);
+    function handleVideo(e) 
+    {
+        alert("현재 준비 중인 기능입니다.");
+        return;
+        // const reg = /(.*?)(^|\/|v=)([a-z0-9_-]{11})(.*)?/i
+        // const vid = reg.exec(e)[3];
+        // setContent(
+        //     <iframe width="100%" height="100%" src={`//www.youtube-nocookie.com/embed/${vid}?rel=0`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
+        // );
+        // setOpen(true);
     }
 
     // 이미지 모달
-    function handleImage(e) {
-        setContent(
-            <ProjectImageComp idx={e} />
-        )
-        setOpen(true);
+    function handleImage(e) 
+    {
+        alert("현재 준비 중인 기능입니다.");
+        return;
+        // setContent(
+        //     <ProjectImageComp idx={e} />
+        // )
+        // setOpen(true);
     }
 
     const colorList = ['bg-primary-600', 'bg-rose-600'];

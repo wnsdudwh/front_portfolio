@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import data from '../static/data/Skills.json';
 
 const StackTest = () => {
@@ -7,7 +7,7 @@ const StackTest = () => {
     return (
         <section id="skill" className="bg-gradient-to-br from-gray-300 to-slate-600 relative">                       {/* stack 섹션의 전체 범위 */}
             <div className="lg:mx-auto max-w-screen-xl relative pb-20">       {/* relactive로 여기 기준으로 위치 상속 + 패딩탑으로 제목영역 위치잡기 용이 */}
-                <div className="w-3/4 mx-auto font-extrabold text-5xl text-center lg:text-left py-16 text-[#212529]">SKILLS</div>    {/* 제목 / 추후 왼쪽정렬 + 애니메이션 */}
+                <div className="w-full mx-auto font-extrabold text-5xl text-center py-16 text-[#212529]">SKILLS</div>    {/* 제목 / 추후 왼쪽정렬 + 애니메이션 */}
                 {/* 아이템 2/2줄을 감쌀 div flex1 사용시 모바일 반응형 4->2->1개로 표시될거 고민좀 해야함 
                 생각 중인건 기본 1, sm~md 2, lg:flex-1 생각중*/}
                 <div className="flex flex-wrap justify-center gap-10">
